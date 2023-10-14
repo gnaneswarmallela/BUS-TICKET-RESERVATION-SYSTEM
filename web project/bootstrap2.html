@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BUS REGISTRATION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <style type="text/css">
+        body {
+            background-color: aliceblue;
+            background-repeat: no-repeat;
+            background-size: 1250px 600px;
+            padding-top: 200px;
+           
+        }
+        .was-validated{
+            margin: 0 auto;
+            max-width: 400px;
+            max-height: 600px;
+            background-color:powderblue;
+            border-radius: 10px;
+
+        }
+        .was-validated{
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="was-validated">
+            <h2>sign up</h2>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" name="firstname" placeholder="enter firstname" required pattern=".{4,}" title="Username should be at least 4 characters">
+                        <div class="invalid-feedback">Please enter a valid username.</div>
+                                    <div class="valid-feedback">Valid</div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" name="lastname" placeholder="enter lastname" required pattern=".{5,}" title="Username should be at least 5 characters">
+                        <div class="invalid-feedback">Please enter a valid username.</div>
+                                    <div class="valid-feedback">Valid</div>
+                    </div>
+                </div>           
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="enter password" required pattern=".{8,}" title="Username should be at least 8 characters">
+                <div class="invalid-feedback">Please enter a valid password.</div>
+                                    <div class="valid-feedback">Valid</div>
+            </div>
+            <input type="submit" class="btn btn-success  btn-block" name="" value="submit">
+        </form>
+
+    </div>
+
+</body>
+</html>

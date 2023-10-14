@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(251, 251, 252, 0.934);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: greenyellow;
+    color: black;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -600px; /* Move the image 30 pixels upward */
+    right: -300px; /* Move the image 30 pixels rightward */
+}
+
+.hero-content {
+    margin-top: 20px;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.payment-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.payment-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+.payment-buttons a:hover {
+    background-color: #45a049;
+}
+
+.payment {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.payment p {
+    color: #555;
+    margin-top: 10px;
+}
+          

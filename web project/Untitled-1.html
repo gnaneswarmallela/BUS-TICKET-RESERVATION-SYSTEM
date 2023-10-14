@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e74c3c;
+            padding: 20px 0;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #c0392b;
+        }
+    </style>
+
+    <script>
+        function validateForm() {
+            // Validation code
+        }
+    </script>
+</head>
+<body>
+    <h1>RTO Management Registration</h1>
+    <form name="RegForm" onsubmit="return validateForm()" method="post">
+        <label for="Name">Full Name:</label>
+        <input type="text" name="Name" />
+
+        <label for="Address">Address:</label>
+        <input type="text" name="Address" />
+
+        <label for="EMail">E-mail Address:</label>
+        <input type="text" name="EMail" />
+
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" />
+
+        <label for="Telephone">Phone Number:</label>
+        <input type="text" name="Telephone" />
+
+        <label for="Comment">Comments:</label>
+        <textarea cols="55" name="Comment"></textarea>
+
+        <input type="submit" value="Register" name="Submit" />
+        <input type="reset" value="Reset" name="Reset" />
+    </form>
+</body>
+</html>

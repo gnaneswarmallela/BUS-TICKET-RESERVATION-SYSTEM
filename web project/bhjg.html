@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: url('l.jpg');
+            background-repeat: no-repeat;
+            background-size: 1270px 600px;
+        }
+    </style>
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100">
+    <div class="text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-20">
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <h3 class="mb-3">Student Login</h3> 
+                            <form action="Admission.html" class="was-validated">
+                                <div class="form-group">
+                                    <label for="username">Username:</label>
+                                    <input type="text" class="form-control" id="username" name="username" placeholder="Enter the Username" required pattern=".{4,}" title="Username should be at least 4 characters">
+                                    <div class="invalid-feedback">Please enter a valid username.</div>
+                                    <div class="valid-feedback">Valid</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password:</label>
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter the Password" required pattern=".{8,}" title="Password should be at least 8 characters">
+                                    <div class="invalid-feedback">Please enter a valid password.</div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg">Login</button> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

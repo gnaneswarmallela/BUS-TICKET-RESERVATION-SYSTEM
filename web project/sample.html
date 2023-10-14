@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link herf="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <section class="vh-100" style="background-color: #eee;">
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-12 col-xl-11">
+              <div class="card text-black" style="border-radius: 25px;">
+                
+                  <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+      
+                      <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+      
+                      <form action="/action_page.php" class="was-validated">
+                        <div class="mb-3 mt-3">
+                          <label for="uname" class="form-label">Name:</label>
+                          <input type="text" class="form-control" id="uname" placeholder="Enter your name" name="uname" required>
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="mb-3 mt-3">
+                          <label for="uname" class="form-label">Email</label>
+                          <input type="text" class="form-control" id="uname" placeholder="Enter your Email" name="mail" required>
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="mb-3 mt-3">
+                          <label for="uname" class="form-label">Password:</label>
+                          <input type="text" class="form-control" id="uname" placeholder="Enter password" name="pswd" required>
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="pwd" class="form-label">Confirm Password:</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="re-enter password" name="rpswd" required>
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+                          <label class="form-check-label" for="myCheck">I agree <a href="">Terms & conditions</a></label>
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Check this checkbox to continue.</div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary ">Submit</button>
+                        </div>
+                      </form>
+                    </div>
+                    
+                  </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+</body>
+</html>
